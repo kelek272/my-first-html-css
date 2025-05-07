@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: black;
+	background-image: url(gifs/Bonfire.gif);
+	background-size: cover;
+	background-attachment: scroll;
+	font-family: HyperLight;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	-webkit-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+}
+
+a:hover {  
+	background-color: rgba(1,1,1,0.5);
+	font-family: HyperLight;
+}
+
+audio {
+	bottom: 0;
+	display: block;
+}
+
+div {
+	padding: 5px;
+	margin: 5px;
+}
+
+ul {
+	width: 220px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 64px;
+	list-style-type: none;
+	overflow: hidden;
+	margin: auto;
+	padding: 5px;
+	border: 2px solid;
+	border-image: linear-gradient(to bottom, #EF34CB 0%, #170b81 100%);
+	border-image-slice: 1;
+}
+
+li {
+	display: block;
+	color: #fff;
+	float: none;
+	font-family: Monolith;
+	text-align: center;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
+li:last-child {
+	padding-bottom: 0px;
+}
+
+li a {
+	color: #fff;
+	display: block;
+}
+
+li a:hover {
+	font-size: 55%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	color: #EF34CB;
+}
+
+h2 {
+	font-size: 24px;
+	color: #6EEE7D;
+}
+
+p {
+	font-size: 14px;
+	margin: 5px 5px 8vh;
+}
+
+p:last-child {
+	margin-bottom: 5px;
+}
+
+p a {
+	color: #EF34CB;
+}
+
+.active {
+	background-image: linear-gradient(to bottom, gray 0%, white 50%, gray 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.bullet {
+	display: list-item;
+	list-style-position: outside;
+	list-style-image: url(images/Companion_bullet.png);
+	margin-bottom: 10px;
+}
+
+.contact:before {
+	background-image: url(images/Mail.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 44px;
+	display: inline-block;
+	content: "";
+}
+
+.container {
+	overflow: visible;
+	margin-bottom: 8vh;
+}
+
+.container.enemies {
+	margin-bottom: 30vh;
+}
+
+.container div {
+	background-color: rgba(24,37,65,0.25);
+	display: table;
+	max-width: 60%;
+	margin: 5px auto;
+	position: relative;
+}
+
+.container div.mediabox {
+	background-color: rgba(0,0,0,0.00);
+	max-width: none;
+	width: 480px;
+	height: 270px;
+	top: 3vh;
+}
+
+.disasterpeace:before {
+	background-image: url(images/Disasterpeace.png);
+	background-size: cover;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	content: "";
+}
+
+.enemy {
+	top: 80px;
+	display: inline;
+}
+
+.gellot:before {
+	background-image: url(images/Gellot.jpg);
+	background-size: cover;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	content: "";
+}
+
+.green {
+	background-image: linear-gradient(to bottom, #6EEE7D 50%, #051111 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.heart_machine:before {
+	background-image: url(images/Heart_Machine.jpg);
+	background-size: cover;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	content: "";
+}
+
+.mediabox {
+	background-image: url(images/JudgmentFlicker_tp.png);
+	background-size: cover;
+}
+
+.mediabox img {
+	max-width: 75%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.mediabox img.control {
+	width: 256px;
+}
+
+.mediabox video {
+	max-width: 90%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.left h2 {
+	text-align: left;
+}
+
+.left img {
+	float: left;
+}
+
+.left div.mediabox {
+	float: left;
+	margin: auto 10px auto 5px;
+}
+
+.left .enemy {
+	float: left;
+}
+
+.right h2 {
+	text-align: right;
+}
+
+.right img {
+	float: right;
+}
+
+.right .enemy {
+	float: right;
+}
+
+.right div.mediabox {
+	float: right;
+	margin: auto 5px auto 10px;
+}
+
+.navbox {
+	position: -webkit-relative;
+	position: relative;
+	z-index: 2;
+	height: 200vh;
+	float: left;
+	background-color: rgba(1,1,1,0.25);
+}
+
+.pink {
+	background-image: linear-gradient(to bottom, #EF34CB 40%, #170b81 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.shadow {
+	text-shadow: 3px 3px 6px #111;
+}
+
+.textbox {
+	z-index: 1;
+	position: absolute;
+	float: none;
+	left: 320px;
+	width: 70%;
+}
+
+.zen_advent:before {
+	background-image: url(images/Zen_Advent.jpg);
+	background-size: cover;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	content: "";
+}
+
+#page {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+/*	border: 2px groove #666;*/
+}
+
+@font-face {
+	font-family: HyperLight;
+	src: url("extras/hyper_light_drifter_menu_text/Hyper Light Drifter Menu Text.ttf");
+}
+@font-face {
+	font-family: Monolith;
+	src: url("extras/Hyper Light Drifter language/Hyper Light.ttf");
+}

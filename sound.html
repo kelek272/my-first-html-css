@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Koi's HLD Tribute Site</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body style="background-image: url(gifs/heart_machine.gif);">
+		<h1 class="pink">Sound</h1>
+		<div id="page">
+			<div class="navbox">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="visuals.html">Visuals</a>
+					</li>
+					<li>
+						<a href="controls.html">Controls</a>
+					</li>
+					<li>
+						<a href="sound.html" class="active">Sound</a>
+					</li>
+					<li>
+						<a href="enemies.html">Enemies</a>
+					</li>
+					<li>
+						<a href="credits.html">Credits</a>
+					</li>
+				</ul>
+			</div>
+			<div class="textbox">
+				<div class="container">
+					<div class="mediabox">
+						<img src="images/east.png" alt="East" id="east_button">
+					</div>
+				</div>
+			</div>
+			<iframe src="audio/250-milliseconds-of-silence.mp3" allow="autoplay" id="silence" style="display:none">
+			</iframe>
+			<audio id="east_bgm" preload="auto">
+				<source  src="audio/soundtrack/19 - A Chorus of Tongues.mp3" type="audio/mpeg">
+				Unsupported.
+			</audio>
+			<audio id="north_bgm" preload="auto">
+				<source  src="audio/soundtrack/14 - Cult of the Zealous.mp3" type="audio/mpeg">
+				Unsupported.
+			</audio>			
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>

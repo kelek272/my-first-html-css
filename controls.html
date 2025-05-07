@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Koi's HLD Tribute Site</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body style="background-image: url(gifs/Titans_after.gif)">
+	<h1 class="pink">Controls</h1>
+	<div id="page">
+			<div class="navbox">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="visuals.html">Visuals</a>
+					</li>
+					<li>
+						<a href="controls.html" class="active">Controls</a>
+					</li>
+					<li>
+						<a href="enemies.html">Enemies</a>
+					</li>
+					<li>
+						<a href="credits.html">Credits</a>
+					</li>
+				</ul>
+			</div>
+			<div class="textbox">
+				<div class="right container">
+					<div class="mediabox">
+						<img src="gifs/ChargeSword.gif" class="control" alt="Charge Sword">
+					</div>
+					<div>
+						<h2 class="green shadow">
+							Charge Sword
+						</h2>
+						<p class="shadow bullet">
+							input: hold <span style="color:#EF34CB">sword</span>, then release
+						</p>
+						<p class="shadow bullet">
+							deals enough damage to instantly kill small and mid-sized enemies within a large area
+						</p>
+						<p class="shadow bullet">
+							has no cooldown but delays slightly</p>
+					</div>
+				</div>
+				<div class="left container">
+					<div class="mediabox">
+						<img src="gifs/SlashDash.gif" class="control" alt="Slash Dash">
+					</div>
+					<div>
+						<h2 class="green shadow">
+							Slash Dash
+						</h2>
+						<p class="shadow bullet">
+							input: press <span style="color:#EF34CB;">sword</span>, then immediately press <span style="color:#EF34CB;">dash</span>
+						</p>
+						<p class="shadow bullet">
+							a minor delay between inputs allows the <span style="color:#EF34CB;">sword</span> attack to connect as well
+						</p>
+						<p class="shadow bullet">
+							great mobility tool that instantly kills small enemies, but has a cooldown
+						</p>
+					</div>
+				</div>
+				<div class="right container">
+					<div class="mediabox">
+						<img src="gifs/chain_dash.gif" class="control" alt="Chain Dash">
+					</div>
+				  <div>
+						<h2 class="green shadow">
+							Chain Dash
+						</h2>
+						<p class="shadow bullet">
+							input: press <span style="color:#EF34CB;">dash</span> at the end of a previous <span style="color:#EF34CB;">dash</span>
+						</p>
+						<p class="shadow bullet">
+							highest utility in the game, as platforming in certain areas is impossible without it
+						</p>
+						<p class="shadow bullet">
+							a chain of 5 or more builds momentum, causing you to slide once you drop the chain
+						</p>
+					</div>
+				</div>
+				<div class="left container">
+					<div class="mediabox">
+						<img src="gifs/DashStrike.gif" class="control" alt="Dash Strike">
+					</div>
+					<div>
+						<h2 class="green shadow">
+							Dash Strike
+						</h2>
+						<p class="shadow bullet">
+							input: press <span style="color:#EF34CB;">sword</span> during a <span style="color:#EF34CB;">dash</span>
+						</p>
+						<p class="shadow bullet">
+							safe option for ending a <span style="color:#6EEE7D;"> chain dash</span> if approaching enemies, though you will still slide afterward
+						</p>
+						<p class="shadow bullet">
+							heavily shoves enemies, causing them to collide with anything nearby; deal bonus damage to themselves and any other enemies struck
+						</p>
+					</div>
+				</div>
+			</div>
+		<iframe src="audio/250-milliseconds-of-silence.mp3" allow="autoplay" id="silence" style="display:none">
+		</iframe>
+			<audio autoplay id="home_bgm">
+				<source  src="audio/soundtrack/10 - Stasis Awakening.mp3" type="audio/mpeg">
+				Unsupported.
+			</audio>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>

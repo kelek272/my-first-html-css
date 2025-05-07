@@ -1,0 +1,6 @@
+﻿This font was translated and created by https://www.youtube.com/c/localcontentshow for use on the show.
+You may use, modify and share it in any way you wish. Even say you made it if you like, who'll know the truth?
+
+The language in Hyper Light Drifter that was used by the original race (some call them "Librarians") on their monoliths. It's odd in several ways when compared to ours: it has only 13 different letters and contains no equivelant for J Q X or Z so I've only included them in the font as a placeholder symbol when typing in uppercase and assigned them to a free glyph in lowercase. Every other letter also shares a glyph, meaning each can mean 2 different things depending on context.
+
+The only punctuation in the language is a comma and ampersand but I've added a full stop and numbers for convenience purposes.
